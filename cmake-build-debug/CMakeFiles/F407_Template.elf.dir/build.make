@@ -82,10 +82,24 @@ CMakeFiles/F407_Template.elf.dir/01_App/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F407_Template.elf.dir/01_App/main.c.s"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\01_App\main.c -o CMakeFiles\F407_Template.elf.dir\01_App\main.c.s
 
+CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
+CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/02_Platform/Source/01_.c
+CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj"
+	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj -MF CMakeFiles\F407_Template.elf.dir\02_Platform\Source\01_.c.obj.d -o CMakeFiles\F407_Template.elf.dir\02_Platform\Source\01_.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\02_Platform\Source\01_.c
+
+CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.i"
+	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\02_Platform\Source\01_.c > CMakeFiles\F407_Template.elf.dir\02_Platform\Source\01_.c.i
+
+CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.s"
+	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\02_Platform\Source\01_.c -o CMakeFiles\F407_Template.elf.dir\02_Platform\Source\01_.c.s
+
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/04_ModuleDrivers/Source/bsp_gpio_led.c
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj -MF CMakeFiles\F407_Template.elf.dir\04_ModuleDrivers\Source\bsp_gpio_led.c.obj.d -o CMakeFiles\F407_Template.elf.dir\04_ModuleDrivers\Source\bsp_gpio_led.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\04_ModuleDrivers\Source\bsp_gpio_led.c
 
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.s: cmake
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/04_ModuleDrivers/Source/bsp_usart_debug.c
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj -MF CMakeFiles\F407_Template.elf.dir\04_ModuleDrivers\Source\bsp_usart_debug.c.obj.d -o CMakeFiles\F407_Template.elf.dir\04_ModuleDrivers\Source\bsp_usart_debug.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\04_ModuleDrivers\Source\bsp_usart_debug.c
 
 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.s: cm
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/05_SystemDrivers/Source/bsp_rcc.c
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj -MF CMakeFiles\F407_Template.elf.dir\05_SystemDrivers\Source\bsp_rcc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\05_SystemDrivers\Source\bsp_rcc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\05_SystemDrivers\Source\bsp_rcc.c
 
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.s: cmake_forc
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/05_SystemDrivers/Source/bsp_systick.c
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.obj -MF CMakeFiles\F407_Template.elf.dir\05_SystemDrivers\Source\bsp_systick.c.obj.d -o CMakeFiles\F407_Template.elf.dir\05_SystemDrivers\Source\bsp_systick.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\05_SystemDrivers\Source\bsp_systick.c
 
 CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_systick.c.s: cmake_
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/06_Core/Source/stm32f4xx_it.c
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.obj -MF CMakeFiles\F407_Template.elf.dir\06_Core\Source\stm32f4xx_it.c.obj.d -o CMakeFiles\F407_Template.elf.dir\06_Core\Source\stm32f4xx_it.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\06_Core\Source\stm32f4xx_it.c
 
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/F407_Template.elf.dir/06_Core/Source/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/06_Core/Source/system_stm32f4xx.c
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.obj -MF CMakeFiles\F407_Template.elf.dir\06_Core\Source\system_stm32f4xx.c.obj.d -o CMakeFiles\F407_Template.elf.dir\06_Core\Source\system_stm32f4xx.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\06_Core\Source\system_stm32f4xx.c
 
 CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/F407_Template.elf.dir/06_Core/Source/system_stm32f4xx.c.s: cmake_forc
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/misc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\misc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\misc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\misc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/misc.c.s: cmake_force
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_adc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_adc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_adc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_adc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_adc.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_can.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_can.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_can.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_can.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_can.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_crc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_crc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_crc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_crc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_crc.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_cryp.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_cryp.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_cryp_aes.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp_aes.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp_aes.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_cryp_aes.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_aes.c.s: cma
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_cryp_des.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp_des.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp_des.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_cryp_des.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_des.c.s: cma
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_cryp_tdes.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp_tdes.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_cryp_tdes.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_cryp_tdes.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_cryp_tdes.c.s: cm
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_dac.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dac.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dac.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_dac.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dac.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_dbgmcu.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dbgmcu.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dbgmcu.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_dbgmcu.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dbgmcu.c.s: cmake
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_dcmi.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dcmi.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dcmi.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_dcmi.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.i: cmake_force
@@ -323,7 +337,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dcmi.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_dma.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dma.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dma.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_dma.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.i: cmake_force
@@ -337,7 +351,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_dma2d.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dma2d.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_dma2d.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_dma2d.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_dma2d.c.s: cmake_
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_exti.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_exti.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_exti.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_exti.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_exti.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_flash.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_flash.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_flash.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_flash.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash.c.s: cmake_
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_flash_ramfunc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_flash_ramfunc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_flash_ramfunc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_flash_ramfunc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_flash_ramfunc.c.s
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_fsmc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_fsmc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_fsmc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_fsmc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.i: cmake_force
@@ -407,7 +421,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_fsmc.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_gpio.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_gpio.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_gpio.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_gpio.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_gpio.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_hash.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_hash.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_hash.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_hash.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.i: cmake_force
@@ -435,7 +449,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_hash_md5.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_hash_md5.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_hash_md5.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_hash_md5.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.i: cmake_force
@@ -449,7 +463,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_md5.c.s: cma
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_hash_sha1.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_hash_sha1.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_hash_sha1.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_hash_sha1.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.i: cmake_force
@@ -463,7 +477,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_hash_sha1.c.s: cm
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_i2c.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_i2c.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_i2c.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_i2c.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.i: cmake_force
@@ -477,7 +491,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_i2c.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_iwdg.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_iwdg.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_iwdg.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_iwdg.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.i: cmake_force
@@ -491,7 +505,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_iwdg.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_ltdc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_ltdc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_ltdc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_ltdc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.i: cmake_force
@@ -505,7 +519,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_ltdc.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_pwr.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_pwr.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_pwr.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_pwr.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.i: cmake_force
@@ -519,7 +533,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_pwr.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_rcc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_rcc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_rcc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_rcc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.i: cmake_force
@@ -533,7 +547,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rcc.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_rng.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_rng.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_rng.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_rng.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.i: cmake_force
@@ -547,7 +561,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rng.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_rtc.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_rtc.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_rtc.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_rtc.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.i: cmake_force
@@ -561,7 +575,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_rtc.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_sai.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_sai.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_sai.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_sai.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.i: cmake_force
@@ -575,7 +589,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sai.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_sdio.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_sdio.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_sdio.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_sdio.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.i: cmake_force
@@ -589,7 +603,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_sdio.c.s: cmake_f
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_spi.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_spi.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_spi.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_spi.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.i: cmake_force
@@ -603,7 +617,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_spi.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_syscfg.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_syscfg.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_syscfg.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_syscfg.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.i: cmake_force
@@ -617,7 +631,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_syscfg.c.s: cmake
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_tim.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_tim.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_tim.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_tim.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.i: cmake_force
@@ -631,7 +645,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_tim.c.s: cmake_fo
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_usart.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_usart.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_usart.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_usart.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.i: cmake_force
@@ -645,7 +659,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_usart.c.s: cmake_
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Source/stm32f4xx_wwdg.c
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.obj: CMakeFiles/F407_Template.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.obj -MF CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_wwdg.c.obj.d -o CMakeFiles\F407_Template.elf.dir\07_Libraries\Source\stm32f4xx_wwdg.c.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\07_Libraries\Source\stm32f4xx_wwdg.c
 
 CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.i: cmake_force
@@ -658,7 +672,7 @@ CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4xx_wwdg.c.s: cmake_f
 
 CMakeFiles/F407_Template.elf.dir/Startup/startup_stm32f40_41xxx.s.obj: CMakeFiles/F407_Template.elf.dir/flags.make
 CMakeFiles/F407_Template.elf.dir/Startup/startup_stm32f40_41xxx.s.obj: H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/Startup/startup_stm32f40_41xxx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/F407_Template.elf.dir/Startup/startup_stm32f40_41xxx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/F407_Template.elf.dir/Startup/startup_stm32f40_41xxx.s.obj"
 	D:\Embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\F407_Template.elf.dir\Startup\startup_stm32f40_41xxx.s.obj -c H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\Startup\startup_stm32f40_41xxx.s
 
 CMakeFiles/F407_Template.elf.dir/Startup/startup_stm32f40_41xxx.s.i: cmake_force
@@ -672,6 +686,7 @@ CMakeFiles/F407_Template.elf.dir/Startup/startup_stm32f40_41xxx.s.s: cmake_force
 # Object files for target F407_Template.elf
 F407_Template_elf_OBJECTS = \
 "CMakeFiles/F407_Template.elf.dir/01_App/main.c.obj" \
+"CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj" \
 "CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj" \
 "CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj" \
 "CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj" \
@@ -719,6 +734,7 @@ F407_Template_elf_OBJECTS = \
 F407_Template_elf_EXTERNAL_OBJECTS =
 
 F407_Template.elf: CMakeFiles/F407_Template.elf.dir/01_App/main.c.obj
+F407_Template.elf: CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
 F407_Template.elf: CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj
 F407_Template.elf: CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj
 F407_Template.elf: CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj
@@ -763,7 +779,7 @@ F407_Template.elf: CMakeFiles/F407_Template.elf.dir/07_Libraries/Source/stm32f4x
 F407_Template.elf: CMakeFiles/F407_Template.elf.dir/Startup/startup_stm32f40_41xxx.s.obj
 F407_Template.elf: CMakeFiles/F407_Template.elf.dir/build.make
 F407_Template.elf: CMakeFiles/F407_Template.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C executable F407_Template.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=H:\01_My_Projects\01_Embedded_MCU_Projects\0.1_STM32F407_Template_For_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking C executable F407_Template.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\F407_Template.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/cmake-build-debug/F407_Template.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/cmake-build-debug/F407_Template.bin"

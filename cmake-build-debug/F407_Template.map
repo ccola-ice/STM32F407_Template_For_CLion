@@ -119,6 +119,14 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/01_App/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/01_App/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/01_App/main.c.obj
+ .text          0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
+ .data          0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
+ .debug_line    0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
+ .debug_str     0x00000000      0x1a6 CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
+ .comment       0x00000000       0x7a CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
+ .ARM.attributes
+                0x00000000       0x33 CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
  .text          0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj
  .data          0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj
  .bss           0x00000000        0x0 CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj
@@ -2177,6 +2185,7 @@ LOAD d:/embedded/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none
 LOAD d:/embedded/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
 LOAD d:/embedded/gcc-arm-none-eabi-9-2019-q4-major-win32/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
 LOAD CMakeFiles/F407_Template.elf.dir/01_App/main.c.obj
+LOAD CMakeFiles/F407_Template.elf.dir/02_Platform/Source/01_.c.obj
 LOAD CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_gpio_led.c.obj
 LOAD CMakeFiles/F407_Template.elf.dir/04_ModuleDrivers/Source/bsp_usart_debug.c.obj
 LOAD CMakeFiles/F407_Template.elf.dir/05_SystemDrivers/Source/bsp_rcc.c.obj
