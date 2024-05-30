@@ -1,0 +1,555 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "F407_Template.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m4  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99 -g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "STM32F40_41xxx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_STDPERIPH_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/06_Core/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/05_SystemDrivers/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/04_ModuleDrivers/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/03_Protocal/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/02_Platform/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/01_App/Include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "STM32F40_41xxx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_STDPERIPH_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/07_Libraries/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/06_Core/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/05_SystemDrivers/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/04_ModuleDrivers/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/03_Protocal/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/02_Platform/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/01_App/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				42
+			]
+		}
+	],
+	"id" : "F407_Template.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m4  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage -T H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/LinkScripts/STM32F407VETx_FLASH.ld -Wl,-Map=H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/cmake-build-debug/F407_Template.map",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "F407_Template.elf",
+	"nameOnDisk" : "F407_Template.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				42,
+				43,
+				44
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01_App/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04_ModuleDrivers/Source/bsp_gpio_led.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "04_ModuleDrivers/Source/bsp_usart_debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05_SystemDrivers/Source/bsp_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "05_SystemDrivers/Source/bsp_systick.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06_Core/Source/stm32f4xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "06_Core/Source/system_stm32f4xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_cryp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_cryp_aes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_cryp_des.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_cryp_tdes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_dac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_dbgmcu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_dcmi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_dma2d.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_flash_ramfunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_fsmc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_hash_md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_hash_sha1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_iwdg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_ltdc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_rng.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_sai.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_sdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_syscfg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "07_Libraries/Source/stm32f4xx_wwdg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Startup/startup_stm32f40_41xxx.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Startup/\u6ce8\u610f.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "LinkScripts/STM32F407VETx_FLASH.ld",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

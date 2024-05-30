@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/Startup/startup_stm32f40_41xxx.s
+

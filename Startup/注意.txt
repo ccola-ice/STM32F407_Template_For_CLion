@@ -1,0 +1,1 @@
+注意：这里的startup文件必须是gcc版本，MDK版本在CLion工程下会报错。

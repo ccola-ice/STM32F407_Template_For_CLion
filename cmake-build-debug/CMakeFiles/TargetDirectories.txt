@@ -1,0 +1,3 @@
+H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/cmake-build-debug/CMakeFiles/F407_Template.elf.dir
+H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/01_My_Projects/01_Embedded_MCU_Projects/0.1_STM32F407_Template_For_CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
